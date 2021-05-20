@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-19T14:49:16Z" name="testnglistnersuit" finished-at="2021-03-19T14:49:33Z" duration-ms="17297">
+    <groups>
+    </groups>
+    <test started-at="2021-03-19T14:49:16Z" name="LoginTest" finished-at="2021-03-19T14:49:33Z" duration-ms="17297">
+      <class name="TestngListnerExample.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestngListnerExample.LoginTest@5e600dd5]" started-at="2021-03-19T20:19:16Z" name="setup" finished-at="2021-03-19T20:19:19Z" duration-ms="3383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginByEmail()[pri:0, instance:TestngListnerExample.LoginTest@5e600dd5]" started-at="2021-03-19T20:19:19Z" name="LoginByEmail" finished-at="2021-03-19T20:19:33Z" duration-ms="13596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginByEmail -->
+        <test-method is-config="true" signature="capturescreenshot(org.testng.ITestResult)[pri:0, instance:TestngListnerExample.LoginTest@5e600dd5]" started-at="2021-03-19T20:19:33Z" name="capturescreenshot" finished-at="2021-03-19T20:19:33Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: LoginByEmail STATUS:SUCCESS METHOD:LoginTest.LoginByEmail()[pri:0, instance:TestngListnerExample.LoginTest@5e600dd5]]
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturescreenshot -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestngListnerExample.LoginTest@5e600dd5]" started-at="2021-03-19T20:19:33Z" name="closebrowser" finished-at="2021-03-19T20:19:33Z" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- TestngListnerExample.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- testnglistnersuit -->
+</testng-results>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.727">
+    <testcase classname="user must do the registartion the side before going to the login page." name="user have to register the page in the webpage" time="0.382">
+        <system-out><![CDATA[Given user have to come on the register the page............................passed
+When user fill the data before move login page..............................passed
+And user click the registration buttton.....................................passed
+Then user go to the login page..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

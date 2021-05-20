@@ -1,0 +1,8 @@
+2021-02-22 14:37:54,080 [main] INFO Log4jdemo - set up method is started
+2021-02-22 14:37:54,086 [main] INFO Log4jdemo - set up method is progress
+2021-02-22 14:48:05,577 [main] INFO Log4jdemo - set up method is started
+2021-02-22 14:48:05,583 [main] INFO Log4jdemo - set up method is progress
+2021-02-22 14:48:05,587 [main] INFO Log4jdemo - login is started
+2021-02-22 14:48:05,589 [main] INFO Log4jdemo - Login is progressed
+2021-02-22 14:48:05,589 [main] INFO Log4jdemo - Login is completed
+2021-02-22 14:48:05,595 [main] INFO Log4jdemo - Logout is completed

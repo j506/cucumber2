@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [testnglistnersuit]">
+  <listeners>
+    <listener class-name="TestngListnerExample.Listeners"/>
+  </listeners>
+  <test parallel="none" name="LoginTest(failed)" preserve-order="true">
+    <classes>
+      <class name="TestngListnerExample.LoginTest">
+        <methods>
+          <include name="LoginByFacebook"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestngListnerExample.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [testnglistnersuit] -->

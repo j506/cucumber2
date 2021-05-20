@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [nopcommerce]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.maven.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="test3(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.maven.testCases.TC1_LoginDDT_002">
+        <methods>
+          <include name="setup"/>
+          <include name="loginTest" invocation-numbers="1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.maven.testCases.TC1_LoginDDT_002 -->
+      <class name="com.maven.testCases.TC_AddCustomer_003">
+        <methods>
+          <include name="setup"/>
+          <include name="addNewCustomer"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.maven.testCases.TC_AddCustomer_003 -->
+    </classes>
+  </test> <!-- test3(failed) -->
+</suite> <!-- Failed suite [nopcommerce] -->

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Configure basic info -->
+    <groupId>nopCommercev</groupId>
+    <artifactId>nopCommercev</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>My Project</name>
+    <description>hello, world</description>
+    <url>http://example.com</url>
+
+    <!-- Define source code connection -->
+    <scm>
+        <connection>scm:git:git@github.com:johnsmith/my-project.git</connection>
+        <developerConnection>scm:git:git@github.com:johnsmith/my-project.git</developerConnection>
+        <url>git@github.com:johnsmith/my-project.git</url>
+    </scm>
+
+    <profiles>
+        <!-- Define a 'release' profile, used for deployment -->
+        <profile>
+            <id>release</id>
+            <build>
+                <plugins>
+                    <!-- Add additional deployment plugins here -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <version>2.10.1</version>
+                        <executions>
+                            <execution>
+                                <id>attach-javadocs</id>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>jar</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>se.walkercrou</groupId>
+                        <artifactId>ghp-maven-plugin</artifactId>
+                        <version>1.0</version>
+                        <executions>
+                            <execution>
+                                <id>update-javadocs</id>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>update</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+    <build>
+        <defaultGoal>clean install</defaultGoal>
+    </build>
+
+</project>

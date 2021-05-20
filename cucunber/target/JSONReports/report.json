@@ -1,0 +1,368 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-17T00:01:50.402Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1981500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.setup1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1555513100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.browserSetup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "check-the-login-page-is-working-fine;",
+        "after": [
+          {
+            "result": {
+              "duration": 738732700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.tearDown1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1979100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "user come on the browser",
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.user_come_on_the_browser()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user give the username and password",
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.user_give_the_username_and_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user click login button",
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.user_click_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user navigae to the home page",
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.user_navigae_to_the_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-17T00:01:52.727Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.setup1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1502032100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.browserSetup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "",
+        "description": "",
+        "id": "check-the-login-page-is-working-fine;",
+        "after": [
+          {
+            "result": {
+              "duration": 726626100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.tearDown1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user come on the browser",
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.user_come_on_the_browser()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "user give the username and password",
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.user_give_the_username_and_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1002600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1005100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "user click login button",
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.user_click_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.beforeSteps()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "user navigae to the home page",
+            "match": {
+              "location": "StepForHooks.HooksDemoSteps.user_navigae_to_the_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 996900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepForHooks.HooksDemoSteps.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "check the login page is working fine",
+    "description": "",
+    "id": "check-the-login-page-is-working-fine",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/HooksDemo/HooksDemo.feature",
+    "tags": []
+  }
+]

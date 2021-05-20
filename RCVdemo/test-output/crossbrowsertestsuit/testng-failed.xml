@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [crossbrowsertestsuit]">
+  <parameter name="browser" value="chrome"/>
+  <test parallel="none" name="crossbrowsertest(failed)" preserve-order="true">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="parameterization.CrossBrowserTest">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="verifytitle"/>
+          <include name="lunchbrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- parameterization.CrossBrowserTest -->
+    </classes>
+  </test> <!-- crossbrowsertest(failed) -->
+</suite> <!-- Failed suite [crossbrowsertestsuit] -->

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [crossbrowsertestsuite]">
+  <parameter name="browser" value="ie"/>
+  <test parallel="tests" name="ietest(failed)" preserve-order="true">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="parameterization.CrossBrowserTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyTitle"/>
+          <include name="launchbrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- parameterization.CrossBrowserTest -->
+    </classes>
+  </test> <!-- ietest(failed) -->
+  <test parallel="tests" name="firefoxtest(failed)" preserve-order="true">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="parameterization.CrossBrowserTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyTitle"/>
+          <include name="launchbrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- parameterization.CrossBrowserTest -->
+    </classes>
+  </test> <!-- firefoxtest(failed) -->
+  <test parallel="tests" name="chrometest(failed)" preserve-order="true">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="parameterization.CrossBrowserTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- parameterization.CrossBrowserTest -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+</suite> <!-- Failed suite [crossbrowsertestsuite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testsuit]">
+  <test name="test(failed)" preserve-order="true">
+    <classes>
+      <class name="parameterization.CrossBrowserTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyTitle"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- parameterization.CrossBrowserTest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [testsuit] -->

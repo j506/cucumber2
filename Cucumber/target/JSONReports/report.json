@@ -1,0 +1,70 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T11:54:40.970Z",
+        "line": 4,
+        "name": "user have to register the page in the webpage",
+        "description": "",
+        "id": "user-must-do-the-registartion-the-side-before-going-to-the-login-page.;user-have-to-register-the-page-in-the-webpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12982500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user have to come on the register the page",
+            "match": {
+              "location": "StepDefinations.LoginTest.user_is_on_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user fill the data before move login page",
+            "match": {
+              "location": "StepDefinations.LoginTest.user_must_fill_proper_data_inside_the_reg()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the registration buttton",
+            "match": {
+              "location": "StepDefinations.LoginTest.click_on_registration_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user go to the login page",
+            "match": {
+              "location": "StepDefinations.LoginTest.user_is_nevigated_to_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "user must do the registartion the side before going to the login page.",
+    "description": "",
+    "id": "user-must-do-the-registartion-the-side-before-going-to-the-login-page.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Registration2.feature",
+    "tags": []
+  }
+]
