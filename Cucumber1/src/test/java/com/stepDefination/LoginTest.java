@@ -1,9 +1,12 @@
 package com.stepDefination;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -41,6 +44,14 @@ public class LoginTest {
 	    // Write code here that turns the phrase above into concrete actions
 		System.out.println("users lands on homepage");
 		driver.close();
+	}
+	@When("user enter  credentials using DataTable")
+	public void user_enter_credentials_using_DataTable(DataTable dataTable) {
+		List<List<String>> data=dataTable.cells();
+		System.out.println("user enter the username and password");
+		driver.findElement(By.id("txtUsername")).sendKeys(data.get(0).get(0));
+		driver.findElement(By.id("txtPassword")).sendKeys(data.get(0).get(1));
+		
 	}
 
 }

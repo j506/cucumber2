@@ -3,17 +3,17 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-05-20T12:42:11.499Z",
+        "start_timestamp": "2021-05-20T14:36:09.834Z",
         "line": 2,
         "name": "Test the valid login",
         "description": "",
-        "id": "test-the-login-functionaly-of-orangehrm;test-the-valid-login",
+        "id": "test-the-login-functionaly-of-orangehrm-using-data-table;test-the-valid-login",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 12058675300,
+              "duration": 10008782500,
               "status": "passed"
             },
             "line": 4,
@@ -25,32 +25,30 @@
           },
           {
             "result": {
-              "duration": 249332700,
+              "duration": 278257600,
               "status": "passed"
             },
             "line": 5,
-            "name": "user enter  username and password",
+            "name": "user enter  credentials using DataTable",
             "match": {
-              "arguments": [
-                {
-                  "val": " username",
-                  "offset": 11
-                },
-                {
-                  "val": "password",
-                  "offset": 25
-                }
-              ],
-              "location": "com.stepDefination.LoginTest.user_enter_the_username_and_password(java.lang.String,java.lang.String)"
+              "location": "com.stepDefination.LoginTest.user_enter_credentials_using_DataTable(io.cucumber.datatable.DataTable)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "admin",
+                  "admin123"
+                ]
+              }
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1904738600,
+              "duration": 5931931500,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "click on login button",
             "match": {
               "location": "com.stepDefination.LoginTest.click_on_login_button()"
@@ -59,10 +57,10 @@
           },
           {
             "result": {
-              "duration": 152504300,
+              "duration": 223408600,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "user should land the Homepage",
             "match": {
               "location": "com.stepDefination.LoginTest.user_should_land_the_Homepage()"
@@ -72,18 +70,18 @@
         ]
       }
     ],
-    "name": "Test the login functionaly of OrangeHRM",
+    "name": "Test the login functionaly of OrangeHRM using Data Table",
     "description": "",
-    "id": "test-the-login-functionaly-of-orangehrm",
+    "id": "test-the-login-functionaly-of-orangehrm-using-data-table",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/LoginFeatures.feature",
+    "uri": "file:src/test/resources/Features/DataTable.feature",
     "tags": []
   },
   {
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-05-20T12:42:25.966Z",
+        "start_timestamp": "2021-05-20T14:36:26.494Z",
         "line": 10,
         "name": "Test the valid login",
         "description": "",
@@ -93,7 +91,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10763714600,
+              "duration": 7835034600,
               "status": "passed"
             },
             "line": 4,
@@ -105,7 +103,7 @@
           },
           {
             "result": {
-              "duration": 223403300,
+              "duration": 211431000,
               "status": "passed"
             },
             "line": 5,
@@ -127,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 2072462800,
+              "duration": 1151383100,
               "status": "passed"
             },
             "line": 6,
@@ -139,7 +137,7 @@
           },
           {
             "result": {
-              "duration": 159255100,
+              "duration": 183508900,
               "status": "passed"
             },
             "line": 7,

@@ -1,6 +1,6 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/Features/LoginFeatures.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/Features/DataTable.feature");
 formatter.feature({
-  "name": "Test the login functionaly of OrangeHRM",
+  "name": "Test the login functionaly of OrangeHRM using Data Table",
   "description": "",
   "keyword": "Feature"
 });
@@ -20,11 +20,14 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enter  username and password",
+  "name": "user enter  credentials using DataTable",
+  "rows": [
+    {}
+  ],
   "keyword": "When "
 });
 formatter.match({
-  "location": "com.stepDefination.LoginTest.user_enter_the_username_and_password(java.lang.String,java.lang.String)"
+  "location": "com.stepDefination.LoginTest.user_enter_credentials_using_DataTable(io.cucumber.datatable.DataTable)"
 });
 formatter.result({
   "status": "passed"
